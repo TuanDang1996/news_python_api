@@ -1,0 +1,55 @@
+{
+    "article": {
+        "htmlTag": "section",
+        "className": "sidebar_1"
+    },
+    "listAttribute":["Title", "Sapo", "Content", "Author", "Picture", "ImageDescription"],
+    "Title": {
+        "tagName": "h1",
+        "className":"title_news_detail",
+        "index": 0
+    },
+    "Sapo": {
+        "tagName": "h2",
+        "className":"description",
+        "index": 0
+    },
+    "Content": {
+        "parentElement": {
+            "tagName": "article",
+            "className": "content_detail",
+            "index": 0
+        },
+        "tagName":"p",
+        "getAll": "true"
+    },
+    "Author":{
+        "parentElement":{
+            "tagName": "p",
+            "className": "author_mail",
+            "index": 0
+        },
+        "tagName": "strong",
+        "index": 0
+    },
+    "Picture":{
+        "parentElement": {
+            "tagName": "article",
+            "className": "content_detail",
+            "index": 0
+        },
+        "tagName": "img",
+        "attribute": "src",
+        "index": "all"
+    },
+    "ImageDescription":{
+        "parentElement": {
+            "tagName": "article",
+            "className": "content_detail",
+            "index": 0
+        },
+        "tagName": "p",
+        "className": "Image",
+        "index": "all"
+    }
+}

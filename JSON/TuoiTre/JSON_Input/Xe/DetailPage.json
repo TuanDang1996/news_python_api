@@ -1,0 +1,51 @@
+{
+    "article": {
+        "htmlTag": "div",
+        "className": "content-detail"
+    },
+    "listAttribute":["Title", "Sapo", "Content", "Author", "Picture", "ImageDescription"],
+    "Title": {
+        "tagName": "h1",
+        "className":"article-title",
+        "index": 0
+    },
+    "Sapo": {
+        "tagName": "h2",
+        "className":"sapo",
+        "index": 0
+    },
+    "Content": {
+        "parentElement": {
+            "tagName": "div",
+            "className": "content",
+            "index": 0
+        },
+        "tagName":"p",
+        "getAll": "true"
+    },
+    "Author":{
+        "tagName": "div",
+        "className": "author",
+        "index": 0
+    },
+    "Picture":{
+        "parentElement": {
+            "tagName": "div",
+            "className": "content",
+            "index": 0
+        },
+        "tagName": "img",
+        "attribute": "src",
+        "index": "all"
+    },
+    "ImageDescription":{
+        "parentElement": {
+            "tagName": "div",
+            "className": "content",
+            "index": 0
+        },
+        "tagName": "div",
+        "className": "PhotoCMS_Caption",
+        "index": "all"
+    }
+}

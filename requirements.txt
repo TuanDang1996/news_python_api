@@ -57,7 +57,7 @@ python-dateutil==2.6.1
 pytz==2018.3
 query-string==0.0.28
 queuelib==1.5.0
-Qt==4.8
+PyQt==4.8
 request==0.0.26
 requests==2.18.4
 s3transfer==0.1.13

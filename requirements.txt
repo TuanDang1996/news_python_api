@@ -72,7 +72,6 @@ Twisted==17.9.0
 underthesea==1.1.6
 urllib3==1.22
 w3lib==1.19.0
-webkit-server==1.0
 Werkzeug==0.14.1
 xgboost==0.71
 xvfbwrapper==0.2.9

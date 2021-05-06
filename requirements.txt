@@ -18,7 +18,7 @@ cffi==1.11.5
 docutils==0.14
 dryscrape==1.0
 Flask==0.12.2
-Flask-Cors==3.0.6
+Flask-Cors==3.0.9
 Flask-Jsonpify==1.5.0
 future==0.16.0
 gensim==3.4.0

@@ -39,7 +39,7 @@ lxml==4.2.1
 MarkupSafe==1.0
 matplotlib==2.2.2
 nltk==3.2.5
-numpy==1.14.2
+numpy==1.22.0
 opencv-python==3.4.0.12
 pandas==0.22.0
 parsel==1.4.0
